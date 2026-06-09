@@ -1,0 +1,13 @@
+[project]
+name = "numcompute-stream"
+version = "0.1.0"
+description = "NumPy-only streaming tree-based machine learning framework"
+authors = [{name = "ExceptionHandlers"}]
+dependencies = ["numpy", "matplotlib"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["numcompute", "numcompute_stream"]
