@@ -12,14 +12,6 @@ def timeit(fn, *args, repeats=10, **kwargs):
     """
     Time a function over multiple runs and return stats.
 
-    Parameters
-    fn      : callable
-              Function to benchmark
-    *args   : positional args passed to fn
-    repeats : int, optional (default=10)
-              How many times to call fn
-    **kwargs: keyword args passed to fn
-
     Returns
     dict with keys: 'mean', 'std', 'min', 'max', 'runs'
     """
